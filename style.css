@@ -1,4 +1,32 @@
-h1 
+@font-face
 {
-    color: red;
+    font-family: 'Raleway';
+    src: url('font/Roboto-Black.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    padding-top: 30px;
+}
+
+li
+{
+    margin-left: 30px;
 }
