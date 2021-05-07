@@ -1,5 +1,5 @@
 div, body
-{   boooorder: 1px black solid;}
+{   borderr: 1px black solid;}
 
 @font-face
 {   font-family: 'Raleway';
@@ -35,7 +35,7 @@ li
 {   padding-top: 130px;}
 
 .welcome div
-{   boooorder: red solid 2px;
+{   borderr: red solid 2px;
     margin: auto;
     display: flex;
     justify-content: space-around;}
@@ -48,12 +48,15 @@ h1
 .intro
 {   margin: auto;
     margin-top: 30px;}
+
+.intro p
+{   font-size: 18px}
     
 .description
 {   display: flex;
     justify-content: space-around;
     align-items: baseline;
-    boooorder: black 1px solid;
+    borderr: black 1px solid;
     width: 750px;
     margin: auto;
     margin-top: 30px;}
@@ -74,7 +77,7 @@ p
 .description p
 {   color: black;
     font-size: 11px;
-    boooorder: solid black 1px;}
+    borderr: solid black 1px;}
 
 h2
 {   text-align: center;
@@ -85,5 +88,45 @@ h2
 {   margin: auto;
     margin-top: 30px;}
 
+.commentaire p
+{   font-size: 17px;}
+
 .amandine
-{   font-size: 14px;}
+{   font-size: 13px;}
+
+footer
+{   background-color: #5b359d;}
+
+h3
+{   color: white;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 12px;}
+
+.reseaux
+{   margin: auto;
+    max-width: 350px;
+    display: flex;
+    justify-content: space-around;}
+
+footer li
+{   color: white;
+    font-size: 16px;}
+
+.pieddepage
+{   display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-bottom: 30px;}
+
+.titre
+{   text-align: left;
+    font-size: 16px;}
+
+.adresse
+{   text-align: left;
+    color: white;
+    font-size: 16px;
+    padding-left: 30px;}
